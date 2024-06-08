@@ -9,6 +9,32 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -18,6 +44,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
@@ -28,6 +55,8 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -35,6 +64,7 @@ ol {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-link {
   font-size: 16px;
