@@ -106,7 +106,6 @@ ol {
 
 .container-two {
   padding: 0 15px;
-  margin: 120px auto;
   width: 1158px;
   display: flex;
 }
@@ -146,6 +145,8 @@ ol {
 .section-two-list {
   display: flex;
   margin-right: 0;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 .section-two-small {
   font-weight: 500;
@@ -156,9 +157,12 @@ ol {
   margin-bottom: 8px;
 }
 .section-two-list-item {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
+.section-two {
+  padding: 120px 0;
+}
 .section-three {
   background-color: #f4f4fd;
 }
@@ -188,7 +192,16 @@ ol {
   color: #434455;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .tools {
   background-color: #ffffff;
