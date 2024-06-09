@@ -165,6 +165,11 @@ ol {
 }
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.container-three {
+  padding: 0 15px;
+  width: 1158px;
 }
 
 .section-three-title {
@@ -174,6 +179,8 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .section-three-name {
@@ -182,6 +189,8 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  text-align: center;
 }
 .section-three-profession {
   font-weight: 400;
@@ -191,6 +200,12 @@ ol {
   text-align: center;
   color: #434455;
 }
+.list-name-profession {
+  width: calc((100% - 72px) / 4);
+  display: flex;
+  gap: 24px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
