@@ -244,10 +244,14 @@ ol {
   overflow: hidden;
 }
 .tools {
+  margin-bottom: 72px;
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
+  padding: 32px 16px; 
+  border: 1px solid #e7e9fc; 
 }
 .section-four-title {
   font-weight: 700;
@@ -257,6 +261,7 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .section-four-toolname {
