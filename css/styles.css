@@ -133,6 +133,8 @@ ol {
 
 .section-three-all {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-two-p {
   font-weight: 400;
@@ -171,7 +173,13 @@ ol {
   padding: 0 15px;
   width: 1158px;
 }
-
+.container-three-name-and-profession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px 0;
+}
 .section-three-title {
   font-size: 36px;
   line-height: 1.11;
@@ -189,7 +197,6 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   text-align: center;
 }
 .section-three-profession {
@@ -199,9 +206,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 .list-name-profession {
-  width: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
