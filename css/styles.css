@@ -136,6 +136,9 @@ ol {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.section-four {
+  padding: 120px 0;
+}
 .section-two-p {
   font-weight: 400;
   font-size: 16px;
@@ -173,12 +176,26 @@ ol {
   padding: 0 15px;
   width: 1158px;
 }
+.container-four {
+  padding: 0 15px;
+  width: 1158px;
+}
+.section-four-all {
+  width: calc((100% - 48px) / 3);
+}
 .container-three-name-and-profession {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 32px 0;
+}
+.container-four-tool-and-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
 }
 .section-three-title {
   font-size: 36px;
@@ -218,7 +235,7 @@ ol {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: 1px;
   border: 0;
   padding: 0;
   white-space: nowrap;
@@ -228,6 +245,9 @@ ol {
 }
 .tools {
   background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .section-four-title {
   font-weight: 700;
@@ -245,6 +265,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
 }
 .section-four-tooldis {
   font-weight: 400;
@@ -254,7 +275,7 @@ ol {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-}
+ 
 .footer {
   background-color: #2e2f42;
 }
