@@ -100,9 +100,14 @@ ol {
   flex-wrap: wrap;
   display: flex;
   border: 0;
-
   margin: 0 auto;
   display: flex;
+}
+
+.container-two {
+  padding: 0 15px;
+  margin: 120px auto;
+  width: 1158px;
 }
 .button-order {
   background-color: #4d5ae5;
@@ -137,6 +142,10 @@ ol {
   color: #434455;
 }
 
+.section-two-list {
+  display: flex;
+  gap: 24px;
+}
 .section-two-small {
   font-weight: 500;
   font-size: 20px;
