@@ -322,3 +322,6 @@ ol {
   border: 0;
   margin-left: 156px;
 }
+img {
+  display: block;
+}
