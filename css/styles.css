@@ -225,7 +225,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  
 }
 .list-name-profession {
   display: flex;
@@ -261,7 +260,6 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 8px;
 }
 
 .section-four-toolname {
@@ -270,8 +268,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; 
-
+  margin-bottom: 8px;
 }
 .section-four-tooldis {
   font-weight: 400;
@@ -281,9 +278,11 @@ ol {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
- 
+}
+
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-title {
   font-family: "Raleway", sans-serif;
@@ -293,6 +292,8 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-studio {
   font-family: "Raleway", sans-serif;
@@ -310,7 +311,13 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  text-wrap: wrap;
 }
- .container-footer {
+
+.container-footer {
   width: 1440px;
- }
+  height: 312px;
+  border: 0;
+  margin-left: 156px;
+}
