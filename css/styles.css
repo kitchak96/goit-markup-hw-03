@@ -145,9 +145,7 @@ ol {
 
 .section-two-list {
   display: flex;
-  gap: 24px;
   margin-right: 0;
-  flex-wrap: wrap;
 }
 .section-two-small {
   font-weight: 500;
