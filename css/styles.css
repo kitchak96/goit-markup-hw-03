@@ -177,8 +177,9 @@ ol {
   width: 1158px;
 }
 .container-four {
-  padding: 0 15px;
+   padding: 32px 16px; 
   width: 1158px;
+  border: 1px solid #e7e9fc; 
 }
 .section-four-all {
   width: calc((100% - 48px) / 3);
@@ -224,7 +225,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 8px;
+  
 }
 .list-name-profession {
   display: flex;
@@ -235,25 +236,26 @@ ol {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: 1px;
+  margin: -1px;
   border: 0;
   padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .tools {
-  margin-bottom: 72px;
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  padding: 32px 16px; 
+
   border: 1px solid #e7e9fc; 
 }
 .section-four-title {
+   margin-bottom: 72px; 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -270,6 +272,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px; 
 
 }
 .section-four-tooldis {
