@@ -29,6 +29,7 @@ ol {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -78,6 +79,10 @@ ol {
 }
 .section-one {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
 }
 .text-section-one {
   font-weight: 700;
@@ -87,6 +92,18 @@ ol {
   text-align: center;
   color: #fff;
 }
+
+.container-one {
+  max-width: 496px;
+  height: 120px;
+  flex-wrap: wrap;
+  display: flex;
+  border: 0;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  margin: 0 auto;
+  display: flex;
+}
 .button-order {
   background-color: #4d5ae5;
   font-weight: 500;
@@ -95,6 +112,13 @@ ol {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .button-order:hover,
