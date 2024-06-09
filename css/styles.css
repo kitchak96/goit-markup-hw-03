@@ -108,6 +108,7 @@ ol {
   padding: 0 15px;
   margin: 120px auto;
   width: 1158px;
+  display: flex;
 }
 .button-order {
   background-color: #4d5ae5;
@@ -145,6 +146,7 @@ ol {
 .section-two-list {
   display: flex;
   gap: 24px;
+  margin-right: 0;
 }
 .section-two-small {
   font-weight: 500;
@@ -152,6 +154,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-three {
@@ -181,6 +184,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.visually-hidden {
+  display: none;
 }
 .tools {
   background-color: #ffffff;
