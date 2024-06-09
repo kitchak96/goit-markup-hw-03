@@ -147,6 +147,7 @@ ol {
   display: flex;
   gap: 24px;
   margin-right: 0;
+  flex-wrap: wrap;
 }
 .section-two-small {
   font-weight: 500;
@@ -155,6 +156,9 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+}
+.section-two-list-item {
+  width: calc((100%-72px) / 4);
 }
 
 .section-three {
